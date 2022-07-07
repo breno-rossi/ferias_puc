@@ -31,16 +31,7 @@ elif tempo != 1:
     api.update_status("Faltam " + str(tempo) + " dias para as férias de PUCPR") 
 
 
-search = 'Ferias' 'PUCPR'
-nrTweets = 50
 
-for tweet in tweepy.Cursor(api.search_tweets, search).items(nrTweets):
-    try:
-        print('Tweet Liked')
-        tweet.favorite()
-        time.sleep(5)
-    except StopIteration:
-        break
 
     
     
