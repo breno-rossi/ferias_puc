@@ -1,10 +1,10 @@
-## BotPUC 2.0
+## BotPUC 1.0
 
 import datetime
 import tweepy 
 import time
 
-key =  '1462054983457726469-gREEFEUNo5cUDdUP29hjRaTol5lBg3'  #Acess
+key =  '1462054983457726469-gREEFEUNo5cUDdUP29hjRaTol5lBg3'  #Acesso
 secret = 'cwo96KdbpNHLUT5GoZKRNCODecavNTfn9NaKG120OaO62' #Chave secreta
 
 consumer_key = '7YncwJoyMiSuVFaARVTtE4fUS' #API
