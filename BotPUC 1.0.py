@@ -1,4 +1,4 @@
-## BotPUC 1.0
+## BotFeriasPUC 1.0
 
 import datetime
 import tweepy 
@@ -16,7 +16,7 @@ auth.set_access_token(key, secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
 
-ferias = datetime.date(2022, 6,24) ## Inserir data das férias 
+ferias = datetime.date(2022, 6,24) ## Inserir data das férias (yyyy\mm\dd)
 hoje = datetime.date.today()
 
 tempo_falta = ferias - hoje
