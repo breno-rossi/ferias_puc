@@ -2,7 +2,6 @@
 
 import datetime
 import tweepy 
-import time
 
 key =  '1462054983457726469-gREEFEUNo5cUDdUP29hjRaTol5lBg3'  #Acesso
 secret = 'cwo96KdbpNHLUT5GoZKRNCODecavNTfn9NaKG120OaO62' #Chave secreta
@@ -16,7 +15,7 @@ auth.set_access_token(key, secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
 
-ferias = datetime.date(2022, 6,24) ## Inserir data das férias (yyyy\mm\dd)
+ferias = datetime.date(2023,1,1) ## Inserir data das férias (yyyy\mm\dd)
 hoje = datetime.date.today()
 
 tempo_falta = ferias - hoje
