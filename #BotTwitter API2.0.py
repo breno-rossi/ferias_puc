@@ -5,11 +5,11 @@ import tweepy
 
 
 client = tweepy.Client(
-    consumer_key="tBrmO06glzXg0zyf1YZ0ohI5v",
-    consumer_secret="zYYVip2jDPTpOjEE53qGJ0X9dJSmDsOVg5hsgwssiT7pf53w8P",
-    access_token="1462054983457726469-UG4kaRPUBZUsoaky8UkH6AsePyzqIj",
-    access_token_secret="lwl1M7twRglGwFhRkjeNUQsGufzpuO7m6w803PueqvsQ8",
-    bearer_token = "AAAAAAAAAAAAAAAAAAAAAHgQnwEAAAAAcYaeyZIDf1FdH%2BiKU3%2FZK3ZC88c%3DPETMAtrkn3xfKMgI9YsIcfWW1l2i3HwX6Ob7YXucVGBu8AnJcR",
+    consumer_key="consumer_key",
+    consumer_secret="consumer_secret",
+    access_token="access_token",
+    access_token_secret="access_token_secret",
+    bearer_token = "bearer_token",
     wait_on_rate_limit = True,
 
 )
